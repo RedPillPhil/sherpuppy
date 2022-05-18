@@ -37,7 +37,61 @@
         }
     </style>
 </head>
-  
+  <script>
+  // Sends new address to iframe
+  let frame: any;
+  const eth: any = (window as any).ethereum;
+  const updateWeb3Api = async () => {
+    frame.contentWindow.postMessage(
+      { type: "ethAddress", address: $ethAddress },
+      config.iframeUrl
+    );
+  };
+
+  // This triggers every time there's a new address. With vanilla js you should listen for `eth_accountsChanged` metamask event here.
+  $: if (loaded && $ethAddress) {
+    updateWeb3Api();
+  }
+
+  // Listen for events from iframe (to open Connect page in new tab or close it)
+  let registered: boolean = false;
+  let eventer: any;
+  let manageWindow: any;
+  const eventHandler = (e: any) => {
+    if (e.data === "goToManage") {
+      manageWindow = window.open(config.iframeUrl + "/manage", "_blank");
+    }
+    if (e.data === "closeManage") {
+      manageWindow.close();
+    }
+  };
+
+  // Mount eventListener
+  onMount(() => {
+    if (!registered) {
+      registered = true;
+      // Listen to message from child window
+      window.addEventListener("message", eventHandler);
+    }
+  });
+
+  // Unmount eventListener
+  onDestroy(() => {
+    loaded = false;
+    if (registered) {
+      window.removeEventListener("message", eventHandler);
+    }
+    registered = false;
+  });
+</script>
+
+
+<iframe
+  on:load={() => (loaded = true)}
+  id="iframe"
+  src="{config.iframeUrl}/{urlExt}"
+  bind:this={frame}
+  {style} />
 <body>
     <iframe src="https://dappos.io/SherpuppyAirdrop"
             frameborder="0" 
