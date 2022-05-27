@@ -303,7 +303,7 @@ contract LuckyCat is Context, Ownable {
 
    constructor() {
        devAdd = payable(msg.sender);
-       shpksxLP = payable (address(0x17F6AD8Ef982297579C203069C1DbfFE4348c372));
+       shpksxLP = payable (address(0x6Ae40adcEFf6E0A99D8369a0400973C8B48446b9));
        
 
    }
