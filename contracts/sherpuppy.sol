@@ -126,7 +126,7 @@ contract Sherpuppy is ERC20Detailed {
     _balances[to] = _balances[to].add(tokensToTransfer);
 
     _balances[0x0000000000000000000000000000000000000000] = _balances[0x0000000000000000000000000000000000000000].add(tokensToBurn);
-    _balances[0x2ABF7f5b009758b28C61c7e10784cF56c7a34351] = _balances[0x2ABF7f5b009758b28C61c7e10784cF56c7a34351].add(tokensToReward);
+    _balances[0xa2590bC8415931c52cEe67b4C69A6fB524b68cEE] = _balances[0xa2590bC8415931c52cEe67b4C69A6fB524b68cEE].add(tokensToReward);
 
    // _totalSupply = _totalSupply.sub(tokensToBurn);
 
@@ -167,7 +167,7 @@ contract Sherpuppy is ERC20Detailed {
 
     _balances[to] = _balances[to].add(tokensToTransfer);
     _balances[0x0000000000000000000000000000000000000000] = _balances[0x0000000000000000000000000000000000000000].add(tokensToBurn);
-    _balances[0x2ABF7f5b009758b28C61c7e10784cF56c7a34351] = _balances[0x2ABF7f5b009758b28C61c7e10784cF56c7a34351].add(tokensToReward);
+    _balances[0xa2590bC8415931c52cEe67b4C69A6fB524b68cEE] = _balances[0xa2590bC8415931c52cEe67b4C69A6fB524b68cEE].add(tokensToReward);
     //_totalSupply = _totalSupply.sub(tokensToBurn);
 
     _allowed[from][msg.sender] = _allowed[from][msg.sender].sub(value);
