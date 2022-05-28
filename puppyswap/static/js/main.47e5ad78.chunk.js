@@ -232,7 +232,7 @@ html {
 
 body {
   min-height: 100vh;
-  background: linear-gradient(225deg, #f84354 0%, #EDF0FB 35%, #001137 100%);
+  background: linear-gradient(225deg, #001137 0%, #EDF0FB 35%, #001137 100%);
 }
 `,Sa=ue.default.div`
   margin-right: 0.5rem;
@@ -980,7 +980,7 @@ body {
     background-color: #ff3541;
   }
 `,ii=Object(ue.default)(oi)`
-  background-color: #f84354;
+  background-color: #001137;
   color: #298a9a;
   border-radius: 16px;
   border: 2px solid white;
@@ -1017,7 +1017,7 @@ body {
   }
   .item {
     padding: 12px 12px;
-    background-color: #f84354;
+    background-color: #001137;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -3292,7 +3292,7 @@ body {
     }
   }
   .ant-radio-inner {
-    border: 1px solid #f84354;
+    border: 1px solid #001137;
     &:hover,
     &:focus,
     &:active {
