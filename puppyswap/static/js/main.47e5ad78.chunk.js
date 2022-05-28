@@ -4282,7 +4282,7 @@ body {
 					isOpen: a,
 					closeModal: l
                 }))
-			}
+			},
 			n(887);
 			var Di = n(512);
 			const Li = [{
