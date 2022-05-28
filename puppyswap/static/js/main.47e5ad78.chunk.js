@@ -232,7 +232,7 @@ html {
 
 body {
   min-height: 100vh;
-  background: linear-gradient(225deg, #f84354 0%, #EDF0FB 15%, #001137 100%);
+  background: linear-gradient(225deg, #f84354 30%, #EDF0FB 35%, #001137 30%);
 }
 `,Sa=ue.default.div`
   margin-right: 0.5rem;
