@@ -980,7 +980,7 @@ body {
     background-color: #ff3541;
   }
 `,ii=Object(ue.default)(oi)`
-  background-color: #d7f0ea;
+  background-color: #f84354;
   color: #298a9a;
   border-radius: 16px;
   border: 2px solid white;
@@ -1017,7 +1017,7 @@ body {
   }
   .item {
     padding: 12px 12px;
-    background-color: #d7f0ea;
+    background-color: #f84354;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -3292,7 +3292,7 @@ body {
     }
   }
   .ant-radio-inner {
-    border: 1px solid #d7f0ea;
+    border: 1px solid #f84354;
     &:hover,
     &:focus,
     &:active {
