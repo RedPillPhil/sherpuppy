@@ -1217,7 +1217,7 @@ body {
   padding: 12px;
   margin-left: 0.5rem;
   cursor: pointer;
-`;function Mi(){return r.a.createElement("a",{id:"link",href:"https://soswap.finance",target:"_blank",rel:"noreferrer"},r.a.createElement(Fi,null,r.a.createElement("img",{src:Pi.a,alt:"SoSwap",style:{width:"16px"}})))}n(887);var Di=n(512);const Li=[{title:"Trade",route:"swap"},{title:"SoSwap",route:"bridge"},{title:"",route:"asset"},{title:"",route:"earn"},{title:"",route:"info"}],zi=ue.default.div`
+`;function Mi(){return r.a.createElement("a",{id:"link",href:"https://soswap.finance",target:"_blank",rel:"noreferrer"},r.a.createElement(Fi,null,r.a.createElement("img",{src:Pi.a,alt:"",style:{width:"16px"}})))}n(887);var Di=n(512);const Li=[{title:"Trade",route:"swap"},{title:"",route:"bridge"},{title:"",route:"asset"},{title:"",route:"earn"},{title:"",route:"info"}],zi=ue.default.div`
   .ant-tabs-tab-btn {
     font-size: 14px;
     font-weight: 500;
