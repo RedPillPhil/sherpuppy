@@ -163,7 +163,7 @@
 `,ga=(ue.default.div`
   font-size: 13px;
   font-weight: 500;
-  color: #001137;
+  color: #6d4ec9;
   line-height: 16px;
   padding: 6px;
   background: #f0e2fe;
@@ -232,7 +232,7 @@ html {
 
 body {
   min-height: 100vh;
-  background: linear-gradient(225deg, #001137 0%, #EDF0FB 35%, #001137 100%);
+  background: linear-gradient(225deg, #001137 25%, #f84354 25%, #DCF7EC 25%, #EDF0FB 25%, #BEC1FF 100%);
 }
 `,Sa=ue.default.div`
   margin-right: 0.5rem;
@@ -374,9 +374,9 @@ body {
   padding: 4px 6px;
   background: #f0e2fe;
   border-radius: 8px;
-  color: #001137;
+  color: #6d4ec9;
   :hover {
-    background: #001137;
+    background: #CCC9E9;
     cursor: pointer;
     text-decoration: underline;
   }
@@ -632,7 +632,7 @@ body {
   border-radius: 8px;
   font-size: 13px;
   font-weight: 500;
-  color: #001137;
+  color: #6d4ec9;
   line-height: 16px;
 `),ir=Object(ue.default)(Zo)`
   background: #e2fffa;
@@ -730,9 +730,9 @@ body {
   padding: 4px 6px;
   background: #f0e2fe;
   border-radius: 8px;
-  color: #001137;
+  color: #6d4ec9;
   :hover {
-    background: #001137;
+    background: #ccc9e9;
     cursor: pointer;
     text-decoration: underline;
   }
@@ -760,7 +760,7 @@ body {
 `,Or=Object(ue.default)(Cr)`
   margin-top: 0;
   &:hover {
-    border: 1px solid #001137;
+    border: 1px solid #6d4ec9;
   }
 `,Ir=ue.default.div`
   ${e=>{let{theme:t}=e;return t.flexRowNoWrap}}
@@ -841,7 +841,7 @@ body {
 `,Lr=ue.default.div`
   border-radius: 8px;
   font-size: 12px;
-  color: #001137;
+  color: #6d4ec9;
   background-color: #f0e2fe;
   margin-left: 1rem;
   padding: 5px 6px;
@@ -894,7 +894,7 @@ body {
     padding: 5px 6px;
     font-size: 13px;
     font-weight: 500;
-    color: #001137;
+    color: #6d4ec9;
     line-height: 16px;
   }
 `,Jr=ue.default.div`
@@ -980,7 +980,7 @@ body {
     background-color: #ff3541;
   }
 `,ii=Object(ue.default)(oi)`
-  background-color: #001137;
+  background-color: #d7f0ea;
   color: #298a9a;
   border-radius: 16px;
   border: 2px solid white;
@@ -1017,7 +1017,7 @@ body {
   }
   .item {
     padding: 12px 12px;
-    background-color: #001137;
+    background-color: #d7f0ea;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1070,7 +1070,7 @@ body {
   border: 1px solid ${e=>{let{isSelected:t}=e;return t?"#FFFFFF":"#e8eaf1"}};
   cursor: ${e=>{let{isSelected:t}=e;return t?"":"pointer"}};
   :hover {
-    border: 1px solid ${e=>{let{isSelected:t}=e;return t?"#FFFFFF":"#001137"}};
+    border: 1px solid ${e=>{let{isSelected:t}=e;return t?"#FFFFFF":"#6d4ec9"}};
   }
   .box {
     display: flex;
@@ -1163,7 +1163,7 @@ body {
   align-items: center;
   .name {
     padding: 0 12px;
-    color: #001137;
+    color: #6d4ec9;
   }
 
   .address {
@@ -1173,7 +1173,7 @@ body {
     display: flex;
     flex-direction: row;
     background-color: #e4e8f2;
-    color: #001137;
+    color: #6d4ec9;
     > span {
       line-height: 16px;
       font-size: 14px;
@@ -1187,7 +1187,7 @@ body {
   align-items: center;
   flex-direction: row;
   background-color: #e4e8f2;
-  color: #001137;
+  color: #6d4ec9;
   border-radius: 16px;
   border: 2px solid white;
   padding: 8px 10px;
@@ -1195,7 +1195,7 @@ body {
   :hover,
   :focus {
     background: #cbc9e9;
-    color: #001137 !important;
+    color: #6d4ec9 !important;
   }
   > img {
     margin: 0 8px 0 0;
@@ -1225,19 +1225,19 @@ body {
     line-height: 22px;
   }
   .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
-    color: #001137 !important;
+    color: #6d4ec9 !important;
   }
 
   .ant-tabs-tab-btn:focus,
   .ant-tabs-tab-remove:focus,
   .ant-tabs-tab-btn:active,
   .ant-tabs-tab-remove:active {
-    color: #001137 !important;
+    color: #6d4ec9 !important;
   }
 
   .ant-tabs-ink-bar {
     margin-top: -2px;
-    background-color: #001137 !important;
+    background-color: #6d4ec9 !important;
   }
 
   .ant-tabs-top > .ant-tabs-nav:before {
@@ -1508,7 +1508,7 @@ body {
   img {
     margin-left: 8px;
   }
-`;var cs=r.a.memo(e=>{let{address:t,symbol:n,decimals:a,image:i}=e;const[l,s]=Object(o.useState)({text:`Add ${n} token to Metamask`,icon:rs.a}),c=Object(o.useCallback)(async()=>{try{await window.ethereum.request({method:"wallet_watchAsset",params:{type:"ERC20",options:{address:t,symbol:n,decimals:a,image:i}}})?(s({text:`Added ${n} token`,icon:ls.a}),console.log("Thanks for your interest!")):console.log("Your loss!")}catch(e){console.log(e)}},[t,a,i,n]);return r.a.createElement(ss,{onClick:c},r.a.createElement(na.a,{fontSize:14,fontWeight:600,color:"#001137",lineHeight:"17px"},l.text),r.a.createElement(Go,{iconSrc:l.icon,height:24,width:24}))});const ds=ue.default.div`
+`;var cs=r.a.memo(e=>{let{address:t,symbol:n,decimals:a,image:i}=e;const[l,s]=Object(o.useState)({text:`Add ${n} token to Metamask`,icon:rs.a}),c=Object(o.useCallback)(async()=>{try{await window.ethereum.request({method:"wallet_watchAsset",params:{type:"ERC20",options:{address:t,symbol:n,decimals:a,image:i}}})?(s({text:`Added ${n} token`,icon:ls.a}),console.log("Thanks for your interest!")):console.log("Your loss!")}catch(e){console.log(e)}},[t,a,i,n]);return r.a.createElement(ss,{onClick:c},r.a.createElement(na.a,{fontSize:14,fontWeight:600,color:"#6D4EC9",lineHeight:"17px"},l.text),r.a.createElement(Go,{iconSrc:l.icon,height:24,width:24}))});const ds=ue.default.div`
   width: 100%;
   background: #f1f5fb;
   box-shadow: 0 4px 10px 0 rgba(0, 1, 1, 0.17);
@@ -1975,7 +1975,7 @@ body {
     color: ${e=>{let{theme:t}=e;return t.text3}};
   }
   :focus {
-    outline: 2px solid #001137;
+    outline: 2px solid #6d4ec9;
   }
 `,ju=ue.default.div`
   width: 100%;
@@ -2125,7 +2125,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-`;var Wm;function Hm(){var e;const{account:t}=be(),[n,a]=Object(o.useState)(!1),[i,l]=Object(o.useState)(Wm.TOKEN1),[s,c]=Object(o.useState)(u.ETHER),[m,p]=Object(o.useState)(null),[f,b]=gc(null!==s&&void 0!==s?s:void 0,null!==m&&void 0!==m?m:void 0),g=function(){const e=Object(d.b)();return Object(o.useCallback)(t=>{e(qn({serializedPair:ea(t)}))},[e])}();Object(o.useEffect)(()=>{b&&g(b)},[b,g]);const y=f===fc.NOT_EXISTS||Boolean(f===fc.EXISTS&&b&&u.JSBI.equal(b.reserve0.raw,u.JSBI.BigInt(0))&&u.JSBI.equal(b.reserve1.raw,u.JSBI.BigInt(0))),h=Cc(null!==t&&void 0!==t?t:void 0,null===b||void 0===b?void 0:b.liquidityToken),v=Boolean(h&&u.JSBI.greaterThan(h.raw,u.JSBI.BigInt(0))),x=Object(o.useCallback)(e=>{i===Wm.TOKEN0?c(e):p(e)},[i]),E=Object(o.useCallback)(()=>{a(!1)},[a]),w=r.a.createElement(Ul,{padding:"45px 10px"},r.a.createElement(na.a,{textAlign:"center",fontSize:16,fontWeight:500,color:"#988EB7"},t?"Select a token to find your liquidity.":"Connect to a wallet to find pools"));return r.a.createElement(vd,null,r.a.createElement(sc,{label:"Import Pool"}),r.a.createElement(pa,null,r.a.createElement(gi,{className:"fuck",gap:"24px"},r.a.createElement("div",{style:{position:"relative"}},r.a.createElement(pr,{onClick:()=>{a(!0),l(Wm.TOKEN0)},style:{marginBottom:"2px"}},s?r.a.createElement(xn,null,r.a.createElement(Ds,{currency:s}),r.a.createElement(na.a,{fontWeight:500,fontSize:20,marginLeft:"12px"},s.symbol)):r.a.createElement(na.a,{fontWeight:500,fontSize:20,marginLeft:"12px"},"Select a Token")),r.a.createElement(Xm,null,r.a.createElement(bi,null,r.a.createElement(zm.a,{size:"16",color:"#25116c"}))),r.a.createElement(pr,{onClick:()=>{a(!0),l(Wm.TOKEN1)}},m?r.a.createElement(xn,null,r.a.createElement(Ds,{currency:m}),r.a.createElement(na.a,{fontWeight:500,fontSize:20,marginLeft:"12px"},m.symbol)):r.a.createElement(na.a,{fontWeight:500,fontSize:20,marginLeft:"12px"},"Select a Token"))),v&&r.a.createElement(bi,{style:{justifyItems:"center",backgroundColor:"",padding:"12px 0px",borderRadius:"12px"}},r.a.createElement(na.a,{textAlign:"center",fontWeight:600,color:"#001137",fontSize:16},"Pool Found!")),s&&m?f===fc.EXISTS?v&&b?r.a.createElement(Em,{key:b.liquidityToken.address,pair:b,isImportLiquidity:!0}):r.a.createElement(Ul,{padding:"45px 10px"},r.a.createElement(gi,{gap:"sm",justify:"center"},r.a.createElement(na.a,{textAlign:"center",fontSize:16,fontWeight:500,color:"#988EB7"},"You don\u2019t have liquidity in this pool yet."),r.a.createElement(sa,{to:`/add/${Kd(s)}/${Kd(m)}`},r.a.createElement(na.a,{color:"#21D2B3",fontSize:14,fontWeight:600,textAlign:"center"},"Add liquidity.")))):y?r.a.createElement(Ul,{padding:"45px 10px"},r.a.createElement(gi,{gap:"sm",justify:"center"},r.a.createElement(na.a,{textAlign:"center",fontSize:16,fontWeight:500,color:"#988EB7"},"No pool found."),r.a.createElement(sa,{style:{color:"#21D2B3",fontSize:"14px",fontWeight:"600"},to:`/add/${Kd(s)}/${Kd(m)}`},"Create pool."))):f===fc.INVALID?r.a.createElement(Ul,{padding:"45px 10px"},r.a.createElement(gi,{gap:"sm",justify:"center"},r.a.createElement(na.a,{textAlign:"center",fontWeight:500,fontSize:16,color:"#988EB7"},"Invalid pair."))):f===fc.LOADING?r.a.createElement(Ul,{padding:"45px 10px"},r.a.createElement(gi,{gap:"sm",justify:"center"},r.a.createElement(na.a,{textAlign:"center",fontSize:16,fontWeight:500,color:"#988EB7"},"Loading",r.a.createElement(Ad,null)))):null:w)),r.a.createElement(tm,{isOpen:n,onCurrencySelect:x,onDismiss:E,showCommonBases:!0,selectedCurrency:null!==(e=i===Wm.TOKEN0?m:s)&&void 0!==e?e:void 0}))}!function(e){e[e.TOKEN0=0]="TOKEN0",e[e.TOKEN1=1]="TOKEN1"}(Wm||(Wm={}));var qm=n(4),Vm=n(1215),Km=(n(1040),n(701));const Ym=Object(ue.default)(Km.a)`
+`;var Wm;function Hm(){var e;const{account:t}=be(),[n,a]=Object(o.useState)(!1),[i,l]=Object(o.useState)(Wm.TOKEN1),[s,c]=Object(o.useState)(u.ETHER),[m,p]=Object(o.useState)(null),[f,b]=gc(null!==s&&void 0!==s?s:void 0,null!==m&&void 0!==m?m:void 0),g=function(){const e=Object(d.b)();return Object(o.useCallback)(t=>{e(qn({serializedPair:ea(t)}))},[e])}();Object(o.useEffect)(()=>{b&&g(b)},[b,g]);const y=f===fc.NOT_EXISTS||Boolean(f===fc.EXISTS&&b&&u.JSBI.equal(b.reserve0.raw,u.JSBI.BigInt(0))&&u.JSBI.equal(b.reserve1.raw,u.JSBI.BigInt(0))),h=Cc(null!==t&&void 0!==t?t:void 0,null===b||void 0===b?void 0:b.liquidityToken),v=Boolean(h&&u.JSBI.greaterThan(h.raw,u.JSBI.BigInt(0))),x=Object(o.useCallback)(e=>{i===Wm.TOKEN0?c(e):p(e)},[i]),E=Object(o.useCallback)(()=>{a(!1)},[a]),w=r.a.createElement(Ul,{padding:"45px 10px"},r.a.createElement(na.a,{textAlign:"center",fontSize:16,fontWeight:500,color:"#988EB7"},t?"Select a token to find your liquidity.":"Connect to a wallet to find pools"));return r.a.createElement(vd,null,r.a.createElement(sc,{label:"Import Pool"}),r.a.createElement(pa,null,r.a.createElement(gi,{className:"fuck",gap:"24px"},r.a.createElement("div",{style:{position:"relative"}},r.a.createElement(pr,{onClick:()=>{a(!0),l(Wm.TOKEN0)},style:{marginBottom:"2px"}},s?r.a.createElement(xn,null,r.a.createElement(Ds,{currency:s}),r.a.createElement(na.a,{fontWeight:500,fontSize:20,marginLeft:"12px"},s.symbol)):r.a.createElement(na.a,{fontWeight:500,fontSize:20,marginLeft:"12px"},"Select a Token")),r.a.createElement(Xm,null,r.a.createElement(bi,null,r.a.createElement(zm.a,{size:"16",color:"#25116c"}))),r.a.createElement(pr,{onClick:()=>{a(!0),l(Wm.TOKEN1)}},m?r.a.createElement(xn,null,r.a.createElement(Ds,{currency:m}),r.a.createElement(na.a,{fontWeight:500,fontSize:20,marginLeft:"12px"},m.symbol)):r.a.createElement(na.a,{fontWeight:500,fontSize:20,marginLeft:"12px"},"Select a Token"))),v&&r.a.createElement(bi,{style:{justifyItems:"center",backgroundColor:"",padding:"12px 0px",borderRadius:"12px"}},r.a.createElement(na.a,{textAlign:"center",fontWeight:600,color:"#6D4EC9",fontSize:16},"Pool Found!")),s&&m?f===fc.EXISTS?v&&b?r.a.createElement(Em,{key:b.liquidityToken.address,pair:b,isImportLiquidity:!0}):r.a.createElement(Ul,{padding:"45px 10px"},r.a.createElement(gi,{gap:"sm",justify:"center"},r.a.createElement(na.a,{textAlign:"center",fontSize:16,fontWeight:500,color:"#988EB7"},"You don\u2019t have liquidity in this pool yet."),r.a.createElement(sa,{to:`/add/${Kd(s)}/${Kd(m)}`},r.a.createElement(na.a,{color:"#21D2B3",fontSize:14,fontWeight:600,textAlign:"center"},"Add liquidity.")))):y?r.a.createElement(Ul,{padding:"45px 10px"},r.a.createElement(gi,{gap:"sm",justify:"center"},r.a.createElement(na.a,{textAlign:"center",fontSize:16,fontWeight:500,color:"#988EB7"},"No pool found."),r.a.createElement(sa,{style:{color:"#21D2B3",fontSize:"14px",fontWeight:"600"},to:`/add/${Kd(s)}/${Kd(m)}`},"Create pool."))):f===fc.INVALID?r.a.createElement(Ul,{padding:"45px 10px"},r.a.createElement(gi,{gap:"sm",justify:"center"},r.a.createElement(na.a,{textAlign:"center",fontWeight:500,fontSize:16,color:"#988EB7"},"Invalid pair."))):f===fc.LOADING?r.a.createElement(Ul,{padding:"45px 10px"},r.a.createElement(gi,{gap:"sm",justify:"center"},r.a.createElement(na.a,{textAlign:"center",fontSize:16,fontWeight:500,color:"#988EB7"},"Loading",r.a.createElement(Ad,null)))):null:w)),r.a.createElement(tm,{isOpen:n,onCurrencySelect:x,onDismiss:E,showCommonBases:!0,selectedCurrency:null!==(e=i===Wm.TOKEN0?m:s)&&void 0!==e?e:void 0}))}!function(e){e[e.TOKEN0=0]="TOKEN0",e[e.TOKEN1=1]="TOKEN1"}(Wm||(Wm={}));var qm=n(4),Vm=n(1215),Km=(n(1040),n(701));const Ym=Object(ue.default)(Km.a)`
   .ant-slider-rail {
     background: #e8f6f3;
     border-radius: 2px;
@@ -2491,7 +2491,7 @@ body {
     background: #dcdcf4;
     box-shadow: 0px 2px 4px 0px rgba(109, 78, 201, 0.06);
     border-radius: 20px;
-    border: 1px solid #001137;
+    border: 1px solid #6d4ec9;
   }
   &.selected {
     background: #E4E8F2;
@@ -2792,7 +2792,7 @@ body {
 `,Qf=ue.default.div`
   min-width: 20px;
   min-height: 20px;
-  background-color: ${e=>{let{theme:t,confirmed:n,disabled:a}=e;return a?t.bg4:n?"#38DCBF":"#001137"}};
+  background-color: ${e=>{let{theme:t,confirmed:n,disabled:a}=e;return a?t.bg4:n?"#38DCBF":"#6D4EC9"}};
   border-radius: 50%;
   color: ${e=>{let{theme:t}=e;return t.white}};
   display: flex;
@@ -2928,7 +2928,7 @@ body {
     cursor: pointer;
   }
   background-color: ${e=>{let{active:t,theme:n}=e;return t&&"#48E8CC"}};
-  color: ${e=>{let{active:t,theme:n}=e;return t?n.white:"#001137"}};
+  color: ${e=>{let{active:t,theme:n}=e;return t?n.white:"#6D4EC9"}};
 `,Jb=ue.default.input`
   background: ${e=>{let{theme:t}=e;return t.bg1}};
   font-size: 16px;
@@ -2938,7 +2938,7 @@ body {
   &::-webkit-inner-spin-button {
     -webkit-appearance: none;
   }
-  color: ${e=>{let{theme:t,color:n}=e;return"red"===n?t.red1:"#001137"}};
+  color: ${e=>{let{theme:t,color:n}=e;return"red"===n?t.red1:"#6D4EC9"}};
   text-align: right;
 `,Qb=Object(ue.default)(Yb)`
   height: 2rem;
@@ -2947,7 +2947,7 @@ body {
   flex: 1;
   border: ${e=>{let{theme:t,active:n,warning:a}=e;return n&&"1px solid "+(a?t.red1:"#48E8CC")}};
   :hover {
-    border: 1px solid #001137;
+    border: 1px solid #6d4ec9;
   }
 
   input {
@@ -3292,7 +3292,7 @@ body {
     }
   }
   .ant-radio-inner {
-    border: 1px solid #001137;
+    border: 1px solid #d7f0ea;
     &:hover,
     &:focus,
     &:active {
@@ -3341,7 +3341,7 @@ body {
   .title {
     font-size: 14px;
     font-weight: 600;
-    color: #001137;
+    color: #6d4ec9;
     line-height: 22px;
   }
 `,Jy=ue.default.div`
@@ -3375,7 +3375,7 @@ body {
     .ant-table-cell {
       font-size: 14px;
       font-weight: 600;
-      color: #001137;
+      color: #6d4ec9;
       line-height: 22px;
       background: white;
       border-bottom: none;
