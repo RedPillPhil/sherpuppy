@@ -376,7 +376,7 @@ body {
   border-radius: 8px;
   color: #6d4ec9;
   :hover {
-    background: #CCC9E9;
+    background: #001137;
     cursor: pointer;
     text-decoration: underline;
   }
@@ -732,7 +732,7 @@ body {
   border-radius: 8px;
   color: #6d4ec9;
   :hover {
-    background: #ccc9e9;
+    background: #001137;
     cursor: pointer;
     text-decoration: underline;
   }
