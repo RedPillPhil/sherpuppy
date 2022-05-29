@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_setting</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="trade_交易设置弹窗1" transform="translate(-832.000000, -157.000000)">
+            <g id="编组-5" transform="translate(400.000000, 134.500000)">
+                <g id="icon_setting_P" transform="translate(424.000000, 14.500000)">
+                    <g id="icon_setting" transform="translate(8.000000, 8.000000)">
+                        <path d="M6,0 L18,0 C21.3137085,-6.08718376e-16 24,2.6862915 24,6 L24,18 C24,21.3137085 21.3137085,24 18,24 L6,24 C2.6862915,24 4.05812251e-16,21.3137085 0,18 L0,6 C-4.05812251e-16,2.6862915 2.6862915,6.08718376e-16 6,0 Z" id="矩形" fill="#FFFFFF" opacity="0"></path>
+                        <g id="编组-11" transform="translate(0.000000, 0.500000)">
+                            <path d="M1.5,3.5 L22.5,3.5 C23.3284271,3.5 24,4.17157288 24,5 C24,5.82842712 23.3284271,6.5 22.5,6.5 L1.5,6.5 C0.671572875,6.5 1.01453063e-16,5.82842712 0,5 C-1.01453063e-16,4.17157288 0.671572875,3.5 1.5,3.5 Z" id="矩形" fill="#3B199F"></path>
+                            <path d="M1.5,16.5 L22.5,16.5 C23.3284271,16.5 24,17.1715729 24,18 C24,18.8284271 23.3284271,19.5 22.5,19.5 L1.5,19.5 C0.671572875,19.5 1.01453063e-16,18.8284271 0,18 C-1.01453063e-16,17.1715729 0.671572875,16.5 1.5,16.5 Z" id="矩形" fill="#3B199F"></path>
+                            <circle id="椭圆形" stroke="#3B199F" stroke-width="3" fill="#EEF4F9" cx="9" cy="5" r="3.5"></circle>
+                            <circle id="椭圆形" stroke="#3B199F" stroke-width="3" fill="#EEF4F9" cx="15" cy="18" r="3.5"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
