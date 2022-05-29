@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="98px" height="99px" viewBox="0 0 98 99" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>形状</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="98" height="98"></rect>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="swap_兑换交易等待确认" transform="translate(-591.000000, -313.000000)">
+            <g id="编组-5" transform="translate(424.000000, 241.500000)">
+                <g id="形状" transform="translate(167.000000, 72.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="蒙版"></g>
+                    <path d="M16.1714819,73.3056844 C23.4484733,83.3568395 35.1036946,89.8690647 48.2406435,89.8690647 C60.9958697,89.8690647 72.3542269,83.7297949 79.6644397,74.1728223 M81.3849041,26.2360596 C74.3377299,15.4056603 62.4527484,8.29239762 48.9785502,8.29239762 C36.312634,8.29239762 25.0509875,14.5778451 17.8919463,24.3278585" stroke="#6D4EC9" stroke-width="3" stroke-linecap="round" mask="url(#mask-2)" transform="translate(48.778193, 49.080731) rotate(-40.000000) translate(-48.778193, -49.080731) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
