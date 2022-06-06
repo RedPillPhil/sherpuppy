@@ -73,7 +73,7 @@
 						package: O.a,
 						options: {
 							rpc: {
-								3: "https://bsc-dataseed.binance.org/"
+								3: "https://ropsten.infura.io/v3/"
 							},
 							network: "ropsten"
 						}
