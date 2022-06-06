@@ -514,14 +514,14 @@
 									case 6:
 										a = e.sent, c = Object(j.a)(a, 3), s = c[0], u = c[1], d = c[2], w({
 											bnb: i("".concat(s)),
-											beans: u,
+											userentries: u,
 											rewards: i("".concat(d))
 										}), e.next = 18;
 										break;
 									case 14:
 										e.prev = 14, e.t0 = e.catch(3), console.error(e.t0), w({
 											bnb: 0,
-											beans: 0,
+											userentries: 0,
 											rewards: 0
 										});
 									case 18:
@@ -665,7 +665,7 @@
 								children: "Your Entries"
 							}), Object(B.jsxs)(Y.a, {
 								variant: "h5",
-								children: [v.beans, " CATS"]
+								children: [v.userentries, " CATS"]
 							})]
 						}), Object(B.jsxs)(R.a, {
 							container: !0,
@@ -677,7 +677,7 @@
 								children: "Total Entries"
 							}), Object(B.jsxs)(Y.a, {
 								variant: "h5",
-								children: [v.beans, " CATS"]
+								children: [v.userentries, " CATS"]
 							})]
 						}), Object(B.jsxs)(R.a, {
 							container: !0,
