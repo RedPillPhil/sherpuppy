@@ -677,7 +677,7 @@
 								children: "Total Entries"
 							}), Object(B.jsxs)(Y.a, {
 								variant: "h5",
-								children: [x.userentries, " My Entries"]
+								children: [x.userentries, " Total Entries"]
 							})]
 						}), Object(B.jsxs)(R.a, {
 							container: !0,
@@ -686,10 +686,10 @@
 							mt: 3,
 							children: [Object(B.jsx)(Y.a, {
 								variant: "body1",
-								children: "Ticket price 0.01 BNB, Confirm by typing 0.01 below. *Any other value will cause the transaction to fail!*"
+								children: "My total referred"
 							}), Object(B.jsxs)(Y.a, {
 								variant: "h5",
-								children: [" "]
+								children: [x.userentries, " My total referred"]
 							})]
 						}), Object(B.jsxs)(R.a, {
 							container: !0,
