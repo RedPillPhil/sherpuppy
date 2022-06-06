@@ -677,7 +677,7 @@
 								children: "Total Entries"
 							}), Object(B.jsxs)(Y.a, {
 								variant: "h5",
-								children: [v.userentries " "]
+								children: [v.userentries, " "]
 							})]
 						}), Object(B.jsxs)(R.a, {
 							container: !0,
