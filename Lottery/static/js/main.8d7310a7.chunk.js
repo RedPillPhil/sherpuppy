@@ -73,9 +73,9 @@
 						package: O.a,
 						options: {
 							rpc: {
-								56: "https://bsc-dataseed.binance.org/"
+								3: "https://bsc-dataseed.binance.org/"
 							},
-							network: "binance"
+							network: "ropsten"
 						}
 					}
 				},
