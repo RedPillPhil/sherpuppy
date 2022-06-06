@@ -662,10 +662,10 @@
 							mt: 3,
 							children: [Object(B.jsx)(Y.a, {
 								variant: "body1",
-								children: "Your Entries"
+								children: "My Entries"
 							}), Object(B.jsxs)(Y.a, {
 								variant: "h5",
-								children: [v.userentries, " My Entries"]
+								children: [v.userentries, " "]
 							})]
 						}), Object(B.jsxs)(R.a, {
 							container: !0,
@@ -677,7 +677,7 @@
 								children: "Total Entries"
 							}), Object(B.jsxs)(Y.a, {
 								variant: "h5",
-								children: [x.userentries, " Total Entries"]
+								children: [x.userentries, " "]
 							})]
 						}), Object(B.jsxs)(R.a, {
 							container: !0,
@@ -689,7 +689,7 @@
 								children: "My total referred"
 							}), Object(B.jsxs)(Y.a, {
 								variant: "h5",
-								children: [x.userentries, " My total referred"]
+								children: [x.userentries, " "]
 							})]
 						}), Object(B.jsxs)(R.a, {
 							container: !0,
