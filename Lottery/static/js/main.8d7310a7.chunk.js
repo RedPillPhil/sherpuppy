@@ -665,7 +665,7 @@
 								children: "Your Entries"
 							}), Object(B.jsxs)(Y.a, {
 								variant: "h5",
-								children: [v.userentries, " CATS"]
+								children: [v.userentries, " My Entries"]
 							})]
 						}), Object(B.jsxs)(R.a, {
 							container: !0,
@@ -677,7 +677,7 @@
 								children: "Total Entries"
 							}), Object(B.jsxs)(Y.a, {
 								variant: "h5",
-								children: [v.userentries, " CATS"]
+								children: [x.userentries, " My Entries"]
 							})]
 						}), Object(B.jsxs)(R.a, {
 							container: !0,
