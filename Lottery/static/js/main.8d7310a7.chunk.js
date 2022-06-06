@@ -677,7 +677,7 @@
 								children: "Total Entries"
 							}), Object(B.jsxs)(Y.a, {
 								variant: "h5",
-								children: [x.userentries, " "]
+								children: [v.userentries " "]
 							})]
 						}), Object(B.jsxs)(R.a, {
 							container: !0,
@@ -689,7 +689,7 @@
 								children: "My total referred"
 							}), Object(B.jsxs)(Y.a, {
 								variant: "h5",
-								children: [x.userentries, " "]
+								children: [v.userentries, " "]
 							})]
 						}), Object(B.jsxs)(R.a, {
 							container: !0,
