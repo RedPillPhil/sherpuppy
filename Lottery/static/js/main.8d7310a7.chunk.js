@@ -369,7 +369,7 @@
 				})
 			}
 			var N = n(408),
-				q = 56,
+				q = 3,
 				K = "0xfff5361f6b97eb2225208665f973cef019a14c13",
 				X = "https://www.bscscan.com/address/0xb50e74A6b82F59c4058b5D798E3D9C9D9B8c6e16",
 				_ = Object(a.createContext)({
