@@ -514,7 +514,7 @@
 									case 6:
 										a = e.sent, c = Object(j.a)(a, 3), s = c[0], u = c[1], d = c[2], w({
 											bnb: i("".concat(s)),
-											beans: "16",
+											beans: u,
 											rewards: i("".concat(d))
 										}), e.next = 18;
 										break;
