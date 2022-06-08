@@ -370,7 +370,7 @@
 			}
 			var N = n(408),
 				q = 3,
-				K = "0xfff5361f6b97eb2225208665f973cef019a14c13",
+				K = "0x9287920333EEB8BCd3457e7089e4677C40735AF2",
 				X = "https://www.bscscan.com/address/0xb50e74A6b82F59c4058b5D798E3D9C9D9B8c6e16",
 				_ = Object(a.createContext)({
 					contract: null,
@@ -542,7 +542,7 @@
 					L()
 				}), [l, o, d]);
 				var P = function() {
-						return f.a.utils.isAddress(D.get("ref")) ? D.get("ref") : "0xdF0833C041db53856380CF1e64CD6428A9e41D3d"
+						return f.a.utils.isAddress(D.get("ref")) ? D.get("ref") : "0xa09b260809915dA08f831A53da431Aa3c1d03618"
 					},
 					N = function() {
 						var e = Object(h.a)(p.a.mark((function e() {
