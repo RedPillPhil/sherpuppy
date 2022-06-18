@@ -370,7 +370,7 @@
 			}
 			var N = n(408),
 				q = 3,
-				K = "0x9287920333EEB8BCd3457e7089e4677C40735AF2",
+				K = "0xF9a4FF6CA0d31856C6fb300735986C71bdD16B7e",
 				X = "https://www.bscscan.com/address/0xb50e74A6b82F59c4058b5D798E3D9C9D9B8c6e16",
 				_ = Object(a.createContext)({
 					contract: null,
