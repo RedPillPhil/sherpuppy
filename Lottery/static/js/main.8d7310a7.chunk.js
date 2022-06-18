@@ -579,7 +579,7 @@
 							return p.a.wrap((function(e) {
 								for (;;) switch (e.prev = e.next) {
 									case 0:
-										return F(!0), n = P(), e.prev = 2, e.next = 5, t.methods.lotteryStart(n).send({
+										return F(!0), n = P(), e.prev = 2, e.next = 5, t.methods.lotteryStart().send({
 											from: l
 										});
 									case 5:
