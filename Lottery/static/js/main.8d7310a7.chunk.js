@@ -1029,9 +1029,9 @@
 											approved: 0
 										}), e.abrupt("return");
 									case 3:
-										return e.prev = 3, e.next = 6, Promise.all([i(b), n.methods.getMyMiners(b).call().catch((function(e) {
+										return e.prev = 3, e.next = 6, Promise.all([i(b), n.methods.getMyEntries(b).call().catch((function(e) {
 											return console.error("myminers", e), 0
-										})), n.methods.beanRewards(b).call().catch((function(e) {
+										})), n.methods.busd(b).call().catch((function(e) {
 											return console.error("beanrewards", e), 0
 										})), u(b)]);
 									case 6:
@@ -1075,7 +1075,7 @@
 							return A.a.wrap((function(e) {
 								for (;;) switch (e.prev = e.next) {
 									case 0:
-										return L(!0), t = N(), a = s("".concat(k)), e.prev = 3, e.next = 6, n.methods.buyEggs(t, a).send({
+										return L(!0), t = N(), a = s("".concat(k)), e.prev = 3, e.next = 6, n.methods.enterWithBUSD, a).send({
 											from: b,
 											value: 0
 										});
@@ -1131,7 +1131,7 @@
 							return A.a.wrap((function(e) {
 								for (;;) switch (e.prev = e.next) {
 									case 0:
-										return L(!0), t = N(), e.prev = 2, e.next = 5, n.methods.hatchEggs(t).send({
+										return L(!0), t = N(), e.prev = 2, e.next = 5, n.methods.PotOGoldStart(t).send({
 											from: b
 										});
 									case 5:
@@ -1158,7 +1158,7 @@
 							return A.a.wrap((function(e) {
 								for (;;) switch (e.prev = e.next) {
 									case 0:
-										return L(!0), e.prev = 1, e.next = 4, n.methods.sellEggs().send({
+										return L(!0), e.prev = 1, e.next = 4, n.methods.pickWinner().send({
 											from: b
 										});
 									case 4:
