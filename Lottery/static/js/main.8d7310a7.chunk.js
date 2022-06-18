@@ -771,7 +771,7 @@
 					})
 				},
 				ee = Object(d.a)(L.a)({
-					background: "rgb(251 241 225)",
+					background: "rainbow-background-with-clouds-pastel-colors_1017-32299.webp",
 					marginBottom: 24
 				}),
 				te = Object(d.a)(R.a)((function(e) {
@@ -1111,7 +1111,7 @@
 				})
 			}
 			var ce = Object(d.a)(L.a)({
-					background: "rgb(255 252 248)",
+					background: "rainbow-background-with-clouds-pastel-colors_1017-32299.webp",
 					marginBottom: 24
 				}),
 				oe = [{
@@ -1154,7 +1154,7 @@
 				})
 			}
 			var ue = Object(d.a)(L.a)({
-					background: "rgb(251 241 225)"
+					background: "rainbow-background-with-clouds-pastel-colors_1017-32299.webp"
 				}),
 				le = Object(d.a)("input")((function(e) {
 					return {
@@ -1163,7 +1163,7 @@
 						padding: "10px 12px",
 						borderRadius: 0,
 						border: "1px solid #555",
-						background: "white",
+						background: "rainbow-background-with-clouds-pastel-colors_1017-32299.webp,
 						width: "100%",
 						outline: "none",
 						color: e.theme.palette.primary.main
@@ -1269,7 +1269,7 @@
 					transform: "translate(-50%, -50%)",
 					maxWidth: 600,
 					maxHeight: 800,
-					bgcolor: "background.paper",
+					bgcolor: "rainbow-background-with-clouds-pastel-colors_1017-32299.webp",
 					boxShadow: 24,
 					px: 4,
 					py: 6,
@@ -1569,7 +1569,7 @@
 					})
 				},
 				ee = Object(d.a)(L.a)({
-					background: "rgb(251 241 225)",
+					background: "rainbow-background-with-clouds-pastel-colors_1017-32299.webp",
 					marginBottom: 24
 				}),
 				te = Object(d.a)(R.a)((function(e) {
@@ -1872,7 +1872,7 @@
 				})
 			}
 			var ae = Object(d.a)(L.a)({
-					background: "rgb(255 252 248)",
+					background: "rainbow-background-with-clouds-pastel-colors_1017-32299.webp",
 					marginBottom: 24
 				}),
 				re = [{
@@ -1909,7 +1909,7 @@
 				})
 			}
 			var ce = Object(d.a)(L.a)({
-					background: "rgb(255 252 248)",
+					background: "rainbow-background-with-clouds-pastel-colors_1017-32299.webp",
 					marginBottom: 24
 				}),
 				oe = [{
@@ -1952,7 +1952,7 @@
 				})
 			}
 			var ue = Object(d.a)(L.a)({
-					background: "rgb(251 241 225)"
+					background: "rainbow-background-with-clouds-pastel-colors_1017-32299.webp"
 				}),
 				le = Object(d.a)("input")((function(e) {
 					return {
@@ -1961,7 +1961,7 @@
 						padding: "10px 12px",
 						borderRadius: 0,
 						border: "1px solid #555",
-						background: "white",
+						background: "rainbow-background-with-clouds-pastel-colors_1017-32299.webp",
 						width: "100%",
 						outline: "none",
 						color: e.theme.palette.primary.main
@@ -2067,7 +2067,7 @@
 					transform: "translate(-50%, -50%)",
 					maxWidth: 600,
 					maxHeight: 800,
-					bgcolor: "background.paper",
+					bgcolor: "rainbow-background-with-clouds-pastel-colors_1017-32299.webp",
 					boxShadow: 24,
 					px: 4,
 					py: 6,
