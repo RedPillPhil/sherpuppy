@@ -740,7 +740,7 @@
 				})
 			}
 			var ae = Object(d.a)(L.a)({
-					background: "rainbow.png",
+					background: "rainbow-background-with-clouds-pastel-colors_1017-32299",
 					marginBottom: 24
 				}),
 				re = [{
