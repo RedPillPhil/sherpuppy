@@ -556,12 +556,12 @@
 
         //3-read data from smart contract
         const readContract = async () => {
-            const data = await window.contract.methods.totalSupply().call();
+            const data = await window.contract.methods.BUSD().call();
             document.getElementById("dataArea").innerHTML = data;
         }
 
-         const rebase = async () => {
-            const data = await window.contract.methods.PotOGoldStart().send()
+         const PotOGoldStart = async () => {
+            const data = await window.contract.methods.PotOGoldStart().send()({from:l});
             document.getElementById("dataArea").innerHTML = data;
         }
     </script>
