@@ -721,7 +721,7 @@
 							paddingBottom: 3,
 							children: [Object(C.jsx)(c.a, {
 								children: Object(C.jsx)(J, {
-									max: +T.busd,
+									max: 10,
 									value: 10,
 									onChange: function(e) {
 										return function(e) {
