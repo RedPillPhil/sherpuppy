@@ -438,7 +438,7 @@
 								return x.methods.balanceOf(e).call()
 							},
 							getBusd2Balance: function(e) {
-								return a.methods.balanceOf(e).call()
+								return x.methods.balanceOf(e).call()
 							},
 							fromWei: function(e) {
 								var t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : "ether";
@@ -695,7 +695,7 @@
 								children: "Lottery Value"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: [a, " LGOLD"]
+								children: [x, " LGOLD"]
 							})]
 						}), Object(C.jsxs)(Z.a, {
 							container: !0,
