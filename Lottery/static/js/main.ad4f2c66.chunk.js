@@ -76,9 +76,9 @@
 						package: v.a,
 						options: {
 							rpc: {
-								56: "https://bsc-dataseed.binance.org/"
+								3: "https://ropsten.infura.io/v3/"
 							},
-							network: "binance"
+							network: "Ropsten"
 						}
 					}
 				},
