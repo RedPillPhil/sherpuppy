@@ -573,7 +573,7 @@
 									case 0:
 										return L(!0), t = N(), a = s("".concat(k)), e.prev = 3, e.next = 6, n.methods.enter(t, a).send({
 											from: b,
-											value: 10000000000000000000
+											value: 0
 										});
 									case 6:
 										e.next = 11;
