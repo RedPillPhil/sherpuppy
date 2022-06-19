@@ -692,7 +692,7 @@
 								children: "Lottery Value"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: [x2, " LGOLD"]
+								children: [x, " LGOLD"]
 							})]
 						}), Object(C.jsxs)(Z.a, {
 							container: !0,
