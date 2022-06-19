@@ -584,7 +584,7 @@
 											return console.error("beanrewards", e), 0
 										})), u(b)]);
 									case 6:
-										x = e.sent, a = Object(m.a)(t, 4), s = a[0], c = a[1], d = a[2], p = a[3], B({
+										x = e.sent, a = Object(m.a)(x, 4), s = a[0], c = a[1], d = a[2], p = a[3], B({
 											busd: o("".concat(s)),
 											referred: c,
 											rewards: o("".concat(d)),
