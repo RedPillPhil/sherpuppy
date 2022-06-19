@@ -776,7 +776,7 @@
 								children: "Referral Count"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: [T.beans, " Referred"]
+								children: [T.referred, " Referred"]
 							})]
 						}), Object(C.jsxs)(c.a, {
 							paddingTop: 4,
