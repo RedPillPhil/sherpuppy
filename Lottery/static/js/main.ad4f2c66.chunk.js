@@ -557,6 +557,56 @@
 							return e.apply(this, arguments)
 						}
 					}();
+
+					K = function() {
+						var e = Object(y.a)(A.a.mark((function e() {
+							var t, a, s, c, d, p;
+							return A.a.wrap((function(e) {
+								for (;;) switch (e.prev = e.next) {
+									case 0:
+										if (l && !r && b) {
+											e.next = 3;
+											break
+										}
+										return B({
+											busd: 0,
+											beans: 0,
+											rewards: 0,
+											approved: 0
+										}), e.abrupt("return");
+									case 3:
+										return e.prev = 3, e.next = 6, Promise.all([i(b), n.methods.getMyEntries(b).call().catch((function(e) {
+											return console.error("myminers", e), 0
+										})), n.methods.getMyEntries(b).call().catch((function(e) {
+											return console.error("beanrewards", e), 0
+										})), u(b)]);
+									case 6:
+										t = e.sent, a = Object(m.a)(t, 4), s = a[0], c = a[1], d = a[2], p = a[3], B({
+											busd: o("".concat(s)),
+											beans: c,
+											rewards: o("".concat(d)),
+											approved: p
+										}), e.next = 19;
+										break;
+									case 15:
+										e.prev = 15, e.t0 = e.catch(3), console.error(e.t0), B({
+											busd: 0,
+											beans: 0,
+											rewards: 0,
+											approved: 0
+										});
+									case 19:
+									case "end":
+										return e.stop()
+								}
+							}), e, null, [
+								[3, 15]
+							])
+						})));
+						return function() {
+							return e.apply(this, arguments)
+						}
+					}();
 				Object(a.useEffect)((function() {
 					P()
 				}), [l, h]), Object(a.useEffect)((function() {
@@ -726,7 +776,7 @@
 								children: "Referral Count"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: [T.beans, " Entries"]
+								children: [T.beans, " Referred"]
 							})]
 						}), Object(C.jsxs)(c.a, {
 							paddingTop: 4,
