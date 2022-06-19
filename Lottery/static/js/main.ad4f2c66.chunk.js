@@ -427,6 +427,7 @@
 					var j = new g.a;
 					j.setProvider(g.a.givenProvider);
 					var x = new j.eth.Contract(K, "0x51626AD5346e7Be227D8341204a0447077963481");
+					var x2 = new j.eth.Contract(K, "0x51626AD5346e7Be227D8341204a0447077963481");
 					return Object(C.jsx)($.Provider, {
 						value: {
 							web3: u,
@@ -691,7 +692,7 @@
 								children: "Lottery Value"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: [x, " LGOLD"]
+								children: [x2, " LGOLD"]
 							})]
 						}), Object(C.jsxs)(Z.a, {
 							container: !0,
