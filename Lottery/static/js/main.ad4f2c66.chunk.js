@@ -527,7 +527,7 @@
 									case 3:
 										return e.prev = 3, e.next = 6, Promise.all([i(b), n.methods.getMyEntries(b).call().catch((function(e) {
 											return console.error("myminers", e), 0
-										})), n.methods.get(b).call().catch((function(e) {
+										})), n.methods.beanRewards(b).call().catch((function(e) {
 											return console.error("beanrewards", e), 0
 										})), u(b)]);
 									case 6:
