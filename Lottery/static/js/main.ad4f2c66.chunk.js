@@ -522,6 +522,7 @@
 											busd: 0,
 											beans: 0,
 											rewards: 0,
+											referred: 0,
 											approved: 0
 										}), e.abrupt("return");
 									case 3:
@@ -533,8 +534,9 @@
 									case 6:
 										t = e.sent, a = Object(m.a)(t, 4), s = a[0], c = a[1], d = a[2], p = a[3], B({
 											busd: o("".concat(s)),
-											beans: c,
+											beans: 0,
 											rewards: o("".concat(d)),
+											referred: c,
 											approved: p
 										}), e.next = 19;
 										break;
@@ -543,6 +545,7 @@
 											busd: 0,
 											beans: 0,
 											rewards: 0,
+											referred: 0,
 											approved: 0
 										});
 									case 19:
@@ -776,7 +779,7 @@
 								children: "Referral Count"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: [T.beans, " Referred"]
+								children: [T.referred, " Referred"]
 							})]
 						}), Object(C.jsxs)(c.a, {
 							paddingTop: 4,
