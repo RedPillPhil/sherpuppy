@@ -378,6 +378,7 @@
 				_ = "https://www.bscscan.com/address/0x2ED8DbFd903454B0E2D1e3525E77D4e5795d502d",
 				$ = Object(a.createContext)({
 					busdcontract: null,
+					busdcontract2: null,
 					contract: null,
 					web: null,
 					wrongNetwork: !1,
@@ -432,6 +433,7 @@
 						value: {
 							web3: u,
 							busdcontract: x,
+							busdcontract2: x2,
 							contract: i,
 							wrongNetwork: h,
 							getBusdBalance: function(e) {
@@ -470,6 +472,7 @@
 			function ae() {
 				var e = Object(a.useContext)($),
 					t = e.busdcontract,
+					t2 = e.busdcontract,
 					n = e.contract,
 					r = e.wrongNetwork,
 					i = e.getBusdBalance,
@@ -692,7 +695,7 @@
 								children: "Lottery Value"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: [x2, " LGOLD"]
+								children: [x, " LGOLD"]
 							})]
 						}), Object(C.jsxs)(Z.a, {
 							container: !0,
