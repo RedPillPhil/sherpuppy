@@ -373,7 +373,7 @@
 			}
 			var K = n(408),
 				N = n(409),
-				q = 56,
+				q = 3,
 				X = "0xF9a4FF6CA0d31856C6fb300735986C71bdD16B7e",
 				_ = "https://www.bscscan.com/address/0xF9a4FF6CA0d31856C6fb300735986C71bdD16B7e",
 				$ = Object(a.createContext)({
