@@ -716,6 +716,18 @@
 								variant: "h5",
 								children: [T.beans, " Entries"]
 							})]
+						}), Object(C.jsxs)(Z.a, {
+							container: !0,
+							justifyContent: "space-between",
+							alignItems: "center",
+							mt: 3,
+							children: [Object(C.jsx)(F.a, {
+								variant: "body1",
+								children: "Your Entries"
+							}), Object(C.jsxs)(F.a, {
+								variant: "h5",
+								children: [T.beans, " Entries"]
+							})]
 						}), Object(C.jsxs)(c.a, {
 							paddingTop: 4,
 							paddingBottom: 3,
