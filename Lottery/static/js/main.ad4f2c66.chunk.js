@@ -714,7 +714,7 @@
 								children: "Your Entries"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: [T.beans, " Cats"]
+								children: [T.beans, " Entries"]
 							})]
 						}), Object(C.jsxs)(c.a, {
 							paddingTop: 4,
