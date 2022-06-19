@@ -781,7 +781,7 @@
 								children: "Referral Count"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: [R.referred, " Referred"]
+								children: [n.methods.getMyReferredAmount(b).call().catch((function(e), " Referred"]
 							})]
 						}), Object(C.jsxs)(c.a, {
 							paddingTop: 4,
