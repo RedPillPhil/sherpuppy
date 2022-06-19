@@ -427,11 +427,11 @@
 					var j = new g.a;
 					j.setProvider(g.a.givenProvider);
 					var x = new j.eth.Contract(K, "0x51626AD5346e7Be227D8341204a0447077963481");
-					var busd = new j.eth.Contract(K, "0x3aC22795304A27edb04Cfe2475DCEf0c5C8B5539");
+					var b = new j.eth.Contract(K, "0x3aC22795304A27edb04Cfe2475DCEf0c5C8B5539");
 					return Object(C.jsx)($.Provider, {
 						value: {
 							web3: u,
-							busdcontract: busd,
+							busdcontract: x,
 							contract: i,
 							wrongNetwork: h,
 							getBusdBalance: function(e) {
@@ -692,7 +692,7 @@
 								children: "Lottery Value"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: [busd, " LGOLD"]
+								children: [b, " LGOLD"]
 							})]
 						}), Object(C.jsxs)(Z.a, {
 							container: !0,
