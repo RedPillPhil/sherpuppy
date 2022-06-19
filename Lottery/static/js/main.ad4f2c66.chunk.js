@@ -747,7 +747,7 @@
 									fullWidth: !0,
 									disabled: r || !b || 0 === +k || U || 0 === +T.approved,
 									onClick: q,
-									children: "Buy Cats"
+									children: "Enter Lottery"
 								})
 							}), Object(C.jsx)(H.a, {}), Object(C.jsxs)(Z.a, {
 								container: !0,
@@ -776,7 +776,7 @@
 										fullWidth: !0,
 										disabled: r || !b || U,
 										onClick: ee,
-										children: "FEED CATS"
+										children: "Start Lottery"
 									})
 								}), Object(C.jsx)(Z.a, {
 									item: !0,
@@ -789,7 +789,7 @@
 										fullWidth: !0,
 										disabled: r || !b || U,
 										onClick: ae,
-										children: "PET CATS"
+										children: "Pick Winner"
 									})
 								})]
 							})]
