@@ -378,7 +378,6 @@
 				_ = "https://www.bscscan.com/address/0x2ED8DbFd903454B0E2D1e3525E77D4e5795d502d",
 				$ = Object(a.createContext)({
 					busdcontract: null,
-					busdcontract2: null,
 					contract: null,
 					web: null,
 					wrongNetwork: !1,
@@ -428,16 +427,15 @@
 					var j = new g.a;
 					j.setProvider(g.a.givenProvider);
 					var x = new j.eth.Contract(K, "0x51626AD5346e7Be227D8341204a0447077963481");
-					var x2 = new j.eth.Contract(K, "0x3aC22795304A27edb04Cfe2475DCEf0c5C8B5539");
+					var x = new j.eth.Contract(K, "0x51626AD5346e7Be227D8341204a0447077963481");
 					return Object(C.jsx)($.Provider, {
 						value: {
 							web3: u,
 							busdcontract: x,
-							busdcontract2: x2,
 							contract: i,
 							wrongNetwork: h,
 							getBusdBalance: function(e) {
-								return x2.methods.balanceOf(e).call()
+								return x.methods.balanceOf(e).call()
 							},
 							fromWei: function(e) {
 								var t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : "ether";
@@ -472,7 +470,6 @@
 			function ae() {
 				var e = Object(a.useContext)($),
 					t = e.busdcontract,
-					t2 = e.busdcontract,
 					n = e.contract,
 					r = e.wrongNetwork,
 					i = e.getBusdBalance,
@@ -695,7 +692,7 @@
 								children: "Lottery Value"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: [x2, " LGOLD"]
+								children: [x, " LGOLD"]
 							})]
 						}), Object(C.jsxs)(Z.a, {
 							container: !0,
