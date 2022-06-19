@@ -435,7 +435,7 @@
 							contract: i,
 							wrongNetwork: h,
 							getBusdBalance: function(e) {
-								return x.methods.balanceOf(e).call()
+								return x2.methods.balanceOf(e).call()
 							},
 							fromWei: function(e) {
 								var t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : "ether";
