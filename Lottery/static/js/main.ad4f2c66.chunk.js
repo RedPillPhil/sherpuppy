@@ -723,7 +723,7 @@
 							mt: 3,
 							children: [Object(C.jsx)(F.a, {
 								variant: "body1",
-								children: "Your Entries"
+								children: "Referral Count"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
 								children: [T.beans, " Entries"]
