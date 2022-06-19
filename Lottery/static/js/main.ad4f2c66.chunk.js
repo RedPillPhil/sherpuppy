@@ -577,9 +577,9 @@
 											approved: 0
 										}), e.abrupt("return");
 									case 3:
-										return e.prev = 3, e.next = 6, Promise.all([i(b), n.methods.getMyEntries(b).call().catch((function(e) {
+										return e.prev = 3, e.next = 6, Promise.all([i(b), n.methods.getMyReferredAmount(b).call().catch((function(e) {
 											return console.error("myminers", e), 0
-										})), n.methods.getMyEntries(b).call().catch((function(e) {
+										})), n.methods.getMyReferredAmount(b).call().catch((function(e) {
 											return console.error("beanrewards", e), 0
 										})),n.methods.getMyReferredAmount(b).call().catch((function(e) {
 											return console.error("referredamount", e), 0
