@@ -487,7 +487,8 @@
 						busd: 0,
 						beans: 0,
 						rewards: 0,
-						approved: 0
+						approved: 0,
+						referred: 0
 					}),
 					w = Object(m.a)(O, 2),
 					T = w[0],
