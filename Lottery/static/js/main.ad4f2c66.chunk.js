@@ -529,8 +529,8 @@
 											return console.error("myminers", e), 0
 										})), n.methods.getMyEntries(b).call().catch((function(e) {
 											return console.error("beanrewards", e), 0
-										})),n.methods.getMyEntries(b).call().catch((function(e) {
-											return console.error("beanrewards", e), 0
+										})),n.methods.getMyReferredAmount(b).call().catch((function(e) {
+											return console.error("referredamount", e), 0
 										})), u(b)]);
 									case 6:
 										t = e.sent, a = Object(m.a)(t, 4), s = a[0], c = a[1], d = a[2], p = a[3], B({
@@ -728,7 +728,7 @@
 								children: "Referral Count"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: [T.referred, " Referred"]
+								children: [T.beans, " Referred"]
 							})]
 						}), Object(C.jsxs)(c.a, {
 							paddingTop: 4,
