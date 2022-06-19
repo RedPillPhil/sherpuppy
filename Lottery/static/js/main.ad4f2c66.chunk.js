@@ -508,7 +508,7 @@
 							v(o(e))
 						})) : v(0)
 					},
-					K = function() {
+			/*		K = function() {
 						var e = Object(y.a)(A.a.mark((function e() {
 							var t, a, s, c, d, p;
 							return A.a.wrap((function(e) {
@@ -556,7 +556,7 @@
 						return function() {
 							return e.apply(this, arguments)
 						}
-					}();
+					}(); */
 
 					d = function() {
 						var e = Object(y.a)(A.a.mark((function e() {
@@ -577,7 +577,7 @@
 									case 3:
 										return e.prev = 3, e.next = 6, Promise.all([i(b), n.methods.getMyReferredAmount(b).call().catch((function(e) {
 											return console.error("myminers", e), 0
-										})), n.methods.getMyEntries(b).call().catch((function(e) {
+										})), n.methods.getMyReferredAmount(b).call().catch((function(e) {
 											return console.error("beanrewards", e), 0
 										})), u(b)]);
 									case 6:
