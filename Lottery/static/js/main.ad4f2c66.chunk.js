@@ -534,9 +534,9 @@
 									case 6:
 										t = e.sent, a = Object(m.a)(t, 4), s = a[0], c = a[1], d = a[2], p = a[3], B({
 											busd: o("".concat(s)),
-											beans: 0,
+											beans: c,
 											rewards: o("".concat(d)),
-											referred: c,
+											referred: 0,
 											approved: p
 										}), e.next = 19;
 										break;
