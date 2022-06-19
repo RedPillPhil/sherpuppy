@@ -688,7 +688,7 @@
 							mt: 3,
 							children: [Object(C.jsx)(F.a, {
 								variant: "body1",
-								children: "Contract"
+								children: "Lottery Value"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
 								children: [x, " LGOLD"]
