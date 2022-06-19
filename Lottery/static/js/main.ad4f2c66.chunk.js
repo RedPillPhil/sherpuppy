@@ -762,21 +762,7 @@
 									onClick: q,
 									children: "Enter Lottery"
 								})
-							}), Object(C.jsx)(H.a, {}), Object(C.jsxs)(Z.a, {
-								container: !0,
-								justifyContent: "space-between",
-								alignItems: "center",
-								mt: 3,
-								children: [Object(C.jsx)(F.a, {
-									variant: "body1",
-									fontWeight: "bolder",
-									children: "Your Rewards"
-								}), Object(C.jsxs)(F.a, {
-									variant: "h5",
-									fontWeight: "bolder",
-									children: [T.rewards, " LGOLD"]
-								})]
-							}), Object(C.jsxs)(ne, {
+							}),  Object(C.jsxs)(ne, {
 								container: !0,
 								children: [Object(C.jsx)(Z.a, {
 									item: !0,
