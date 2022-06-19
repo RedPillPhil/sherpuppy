@@ -534,7 +534,7 @@
 										t = e.sent, a = Object(m.a)(t, 4), s = a[0], c = a[1], d = a[2], p = a[3], B({
 											busd: o("".concat(s)),
 											beans: c,
-											rewards: o("".concat(d)),
+											rewards: d,
 											approved: p
 										}), e.next = 19;
 										break;
