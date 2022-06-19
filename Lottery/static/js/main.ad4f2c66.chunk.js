@@ -427,39 +427,7 @@
 					var j = new g.a;
 					j.setProvider(g.a.givenProvider);
 					var x = new j.eth.Contract(K, "0x51626AD5346e7Be227D8341204a0447077963481");
-					var
-					return Object(C.jsx)($.Provider, {
-						value: {
-							web3: u,
-							busdcontract: x,
-							contract: i,
-							wrongNetwork: h,
-							getBusdBalance: function(e) {
-								return x.methods.balanceOf(e).call()
-							},
-							fromWei: function(e) {
-								var t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : "ether";
-								return parseFloat(g.a.utils.fromWei(e, t)).toFixed(3)
-							},
-							toWei: function(e) {
-								var t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : "ether";
-								return g.a.utils.toWei(e, t)
-							},
-							getBusdApproved: function(e) {
-								return x.methods.allowance(e, X).call()
-							}
-						},
-						children: t
-					})
-				},
-				te = Object(d.a)(V.a)({
-					background: "rgb(251 241 225)",
-					marginBottom: 24
-				}),
-									var j = new g.a;
-					j.setProvider(g.a.givenProvider);
-					var x = new j.eth.Contract(K, "0x51626AD5346e7Be227D8341204a0447077963481");
-					var
+					var x2 = new j.eth.Contract(K, "0x3aC22795304A27edb04Cfe2475DCEf0c5C8B5539");
 					return Object(C.jsx)($.Provider, {
 						value: {
 							web3: u,
@@ -724,7 +692,7 @@
 								children: "Lottery Value"
 							}), Object(C.jsxs)(F.a, {
 								variant: "h5",
-								children: [x, " LGOLD"]
+								children: [x2, " BUSD"]
 							})]
 						}), Object(C.jsxs)(Z.a, {
 							container: !0,
