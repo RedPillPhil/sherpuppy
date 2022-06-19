@@ -627,7 +627,7 @@
 							return A.a.wrap((function(e) {
 								for (;;) switch (e.prev = e.next) {
 									case 0:
-										return L(!0), t = N(), e.prev = 2, e.next = 5, n.methods.PotOGoldStart(t).send({
+										return L(!0), t = N(), e.prev = 2, e.next = 5, n.methods.PotOGoldStart().send({
 											from: b
 										});
 									case 5:
