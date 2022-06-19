@@ -722,7 +722,7 @@
 							children: [Object(C.jsx)(c.a, {
 								children: Object(C.jsx)(J, {
 									max: +T.busd,
-									value: k,
+									value: 10,
 									onChange: function(e) {
 										return function(e) {
 											W(e)
