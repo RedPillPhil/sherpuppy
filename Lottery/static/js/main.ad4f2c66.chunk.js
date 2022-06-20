@@ -464,6 +464,47 @@
 							marginRight: 0
 						}
 					})
+				}));[p]);
+					var j = new g.a;
+					j.setProvider(g.a.givenProvider);
+					var x = new j.eth.Contract(K, "0x51626AD5346e7Be227D8341204a0447077963481");
+					return Object(C.jsx)($.Provider, {
+						value: {
+							web3: u,
+							busdcontract: x,
+							contract: i,
+							wrongNetwork: h,
+							getBusdBalance: function(e) {
+								return x.methods.balanceOf(e).call()
+							},
+							fromWei: function(e) {
+								var t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : "ether";
+								return parseFloat(g.a.utils.fromWei(e, t)).toFixed(3)
+							},
+							toWei: function(e) {
+								var t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : "ether";
+								return g.a.utils.toWei(e, t)
+							},
+							getBusdApproved: function(e) {
+								return x.methods.allowance(e, X).call()
+							}
+						},
+						children: t
+					})
+				},
+				te = Object(d.a)(V.a)({
+					background: "rgb(251 241 225)",
+					marginBottom: 24
+				}),
+				ne = Object(d.a)(Z.a)((function(e) {
+					var t = e.theme;
+					return Object(l.a)({}, t.breakpoints.down("sm"), {
+						flexDirection: "column",
+						"> div": {
+							marginLeft: 0,
+							marginRight: 0
+						}
+					})
 				}));
 
 			function ae() {
