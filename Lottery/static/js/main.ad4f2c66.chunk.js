@@ -286,7 +286,7 @@
 					}), Object(C.jsx)(F.a, {
 						variant: "h6",
 						marginTop: 3,
-						children: "LGOLD Cat, the highest rewards in all of DeFi."
+						children: "Pot O' Gold is a completely decentralized, transparent and autonomous lottery with a BUSD jackppot."
 					}), Object(C.jsxs)(U, {
 						container: !0,
 						children: [Object(C.jsx)(Z.a, {
