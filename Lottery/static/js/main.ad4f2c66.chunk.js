@@ -1027,13 +1027,17 @@
 					marginBottom: 24
 				}),
 				xe = [{
-					label: "You can either enter with BUSD, or LGOLD."
+					label: "Any user can select 'Start Lottery'."
 				}, {
-					label: "The reward will always be paid in BUSD."
+					label: "You can enter with BUSD or LGOLD."
 				},{
-					label: "Winner will be paid lottery balance - 10% that will remain for the next round."
+					label: "Upon entry with BUSD users will be sent 5 LGOLD. "
 				},{
-					label: "After 7 days from the lottery start any user can select the pick winner function."
+					label: "10 LGOLD can be used to gain another entry."
+				},{
+					label: "After 7 days any user can pick winner. "
+				},{
+					label: "Users can earn instantly from a 4 tier referall system "
 				}];
 
 			function ve() {
