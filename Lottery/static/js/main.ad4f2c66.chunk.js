@@ -1031,7 +1031,7 @@
 				}, {
 					label: "The reward will always be paid in BUSD."
 				},{
-					label: "The winner will be paid the entire lottery balance - 10% that will remain for the next round."
+					label: "Winner will be paid lottery balance - 10% that will remain for the next round."
 				}{
 					label: "After 7 days from the lottery start any user can select the pick winner function."
 				}];
