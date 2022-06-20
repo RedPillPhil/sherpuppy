@@ -954,7 +954,7 @@
 					top: "50%",
 					left: "50%",
 					transform: "translate(-50%, -50%)",
-					maxWidth: 900,
+					maxWidth: 600,
 					maxHeight: 800,
 					bgcolor: "background.paper",
 					boxShadow: 24,
