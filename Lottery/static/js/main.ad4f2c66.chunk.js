@@ -954,7 +954,7 @@
 					top: "50%",
 					left: "50%",
 					transform: "translate(-50%, -50%)",
-					maxWidth: 600,
+					maxWidth: 900,
 					maxHeight: 800,
 					bgcolor: "background.paper",
 					boxShadow: 24,
@@ -1037,7 +1037,9 @@
 				},{
 					label: "After 7 days any user can pick winner. "
 				},{
-					label: "Users can earn instantly from a 4 tier referall system "
+					label: "Users can earn instantly from a 4 tier referall system. "
+				},{
+					label: "For more read the FAQ below. "
 				}];
 
 			function ve() {
