@@ -1027,19 +1027,19 @@
 					marginBottom: 24
 				}),
 				xe = [{
-					label: "Any user can select 'Start Lottery'."
+					label: "•••••••Any user can select 'Start Lottery'."
 				}, {
-					label: "You can enter with BUSD or LGOLD."
+					label: "••••••Enter with BUSD or LGOLD."
 				},{
-					label: "Upon entry with BUSD users will be sent 5 LGOLD. "
+					label: "•••••Upon entry with BUSD users will be sent 5 LGOLD. "
 				},{
-					label: "10 LGOLD can be used to gain another entry."
+					label: "••••10 LGOLD can be used to gain another entry."
 				},{
-					label: "After 7 days any user can pick winner. "
+					label: "•••After 7 days any user can pick winner. "
 				},{
-					label: "Users can earn instantly from a 4 tier referall system. "
+					label: "••Users can earn instantly from a 4 tier referall system. "
 				},{
-					label: "For more read the FAQ below. "
+					label: "•For more read the FAQ below. "
 				}];
 
 			function ve() {
