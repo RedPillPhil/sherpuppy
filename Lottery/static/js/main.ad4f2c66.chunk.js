@@ -859,7 +859,7 @@
 
 			function ue(e) {
 				var t = e.address,
-					n = "".concat(window.origin, "?ref=").concat(t);
+					n = "".concat(window.origin, "/lottery/?ref=").concat(t);
 				return Object(C.jsx)(se, {
 					children: Object(C.jsxs)(D.a, {
 						style: {
