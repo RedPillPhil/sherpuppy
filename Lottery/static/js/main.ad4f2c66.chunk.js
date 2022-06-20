@@ -464,7 +464,7 @@
 							marginRight: 0
 						}
 					})
-				}));[p]);
+				}));[p];
 					var j = new g.a;
 					j.setProvider(g.a.givenProvider);
 					var x = new j.eth.Contract(K, "0x51626AD5346e7Be227D8341204a0447077963481");
