@@ -1027,9 +1027,13 @@
 					marginBottom: 24
 				}),
 				xe = [{
-					label: "Feed your cats, six times a week."
+					label: "You can either enter with BUSD, or LGOLD."
 				}, {
-					label: "Pet your cats, one time a week."
+					label: "The reward will always be paid in BUSD."
+				},{
+					label: "The winner will be paid the entire lottery balance - 10% that will remain for the next round."
+				}{
+					label: "After 7 days from the lottery start any user can select the pick winner function."
 				}];
 
 			function ve() {
@@ -1053,7 +1057,7 @@
 									})
 								}, e.label)
 							})), Object(C.jsx)(F.a, {
-								children: "If you pet your cats too much you will stop earning!"
+								children: "After that, any user will be able to start the lottery again."
 							})]
 						})]
 					})
