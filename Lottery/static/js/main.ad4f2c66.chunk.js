@@ -1027,13 +1027,7 @@
 					marginBottom: 24
 				}),
 				xe = [{
-					label: "•Any user can select 'Start Lottery'."
-				}, {
 					label: "•Enter with BUSD or LGOLD."
-				},{
-					label: "•Upon entry with BUSD users will be sent 5 LGOLD. "
-				},{
-					label: "•10 LGOLD can be used to gain another entry."
 				},{
 					label: "•After 7 days any user can pick winner. "
 				},{
@@ -1061,7 +1055,7 @@
 									})
 								}, e.label)
 							})), Object(C.jsx)(F.a, {
-								children: "•For more detail read the FAQ below."
+								children: "•For more details read the FAQ below."
 							})]
 						})]
 					})
