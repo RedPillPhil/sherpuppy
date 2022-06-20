@@ -1037,9 +1037,7 @@
 				},{
 					label: "•After 7 days any user can pick winner. "
 				},{
-					label: "•Users can earn instantly from a 4 tier referall system. "
-				},{
-					label: "•For more read the FAQ below. "
+					label: "•Earn instantly from a 4 tier referral system. "
 				}];
 
 			function ve() {
@@ -1063,7 +1061,7 @@
 									})
 								}, e.label)
 							})), Object(C.jsx)(F.a, {
-								children: "After that, any user will be able to start the lottery again."
+								children: "•For more detail read the FAQ below."
 							})]
 						})]
 					})
