@@ -1072,7 +1072,7 @@
 			var Oe = Object(d.a)("div")((function(e) {
 				var t = e.theme;
 				return Object(l.a)({
-					maxWidth: 400,
+					maxWidth: 600,
 					margin: "0 auto"
 				}, t.breakpoints.down("sm"), {
 					maxWidth: "100%"
