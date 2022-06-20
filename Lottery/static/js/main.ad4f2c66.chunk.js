@@ -1123,7 +1123,7 @@
 					typography: {
 						fontFamily: "Montserrat",
 						body1: {
-							fontSize: 16
+							fontSize: 20
 						},
 						body2: {
 							fontSize: 16
