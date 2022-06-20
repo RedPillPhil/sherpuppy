@@ -1072,7 +1072,7 @@
 			var Oe = Object(d.a)("div")((function(e) {
 				var t = e.theme;
 				return Object(l.a)({
-					maxWidth: 600,
+					maxWidth: 400,
 					margin: "0 auto"
 				}, t.breakpoints.down("sm"), {
 					maxWidth: "100%"
@@ -1123,7 +1123,7 @@
 					typography: {
 						fontFamily: "Montserrat",
 						body1: {
-							fontSize: 20
+							fontSize: 16
 						},
 						body2: {
 							fontSize: 16
