@@ -233,7 +233,7 @@ html {
 body {
   min-height: 100vh;
  /* background: linear-gradient(225deg, #BEC1FF 0%, #EDF0FB 35%, #DCF7EC 45%, #001137 65%, #f84354 100%);; */
- 	background-image: url("https://images6.alphacoders.com/606/thumb-1920-606342.png");
+ 	background-image: url("https://img.freepik.com/free-vector/seamless-pattern-with-ufo-aliens-green-background_106024-512.jpg?w=2000");
 }
 `,Sa=ue.default.div`
   margin-right: 0.5rem;
